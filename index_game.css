@@ -1,0 +1,78 @@
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'tit tit tit tit tit'
+  'alg alg con usr usr';
+  
+  background-color: #eaeceb;
+  width:90%;
+  margin:0% 10%;
+
+}
+
+  .grid-container div {
+
+    text-align: center;
+    padding: 20px 0;
+    border-radius:10px;
+    font-size:2ch;
+  }
+
+#algo-section {
+  border:4px rgb(0, 0, 0) solid;
+  color:#eaeceb;
+  grid-area: alg;
+  height:500%;
+  margin-right:10%;
+  gap: 5px;
+  background-color: rgb(68,114,196);
+}
+
+#user-section {
+  border:4px rgb(0, 0, 0) solid;
+  color:#eaeceb;
+  grid-area: usr;
+  height:500%;
+  margin-left: 10%;
+  gap: 5px;
+  background-color: rgb(68,114,196);
+}
+
+.game-space {
+  background-color: white;
+  padding: auto;
+  cursor: pointer;
+}
+
+.controls {
+  grid-area: con;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  padding: 15%;
+  gap: 10px;
+
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  font-size: 2ch;
+}
+
+
+button {
+  cursor: pointer;
+  background-color: rgb(109,176,63);
+  padding:5%;
+  border-radius: 10px;
+ 
+}
+
+button:hover {
+  background: #218838;
+}
