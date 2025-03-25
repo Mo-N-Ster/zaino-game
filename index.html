@@ -31,9 +31,27 @@
 
 
         <div class="grid-container">
-            <div class="title">PROBLEMA DELLO ZAINO</div>
+            <div class="title">Configurazione del Gioco</div>
 
         </div>
+
+        <main>
+            <label for="maxWeight">Peso massimo dello zaino:</label>
+            <input type="number" id="maxWeight" min="1" value="10">
+            
+            <label for="items">Set di oggetti (valore;peso):</label>
+            <textarea id="items" placeholder="Esempio: 10;2, 5;1, 8;3"></textarea>
+            
+            <label for="algorithm">Scegli l'algoritmo:</label>
+            <select id="algorithm">
+                <option value="greedy">Greedy</option>
+                <option value="dynamic">Programmazione Dinamica</option>
+                <option value="bnb">Branch and Bound</option>
+            </select>
+            
+            <a class="button" id="startGame">Vai al Gioco</a>
+        </main>
+        <script src="config.js"></script>
 
 
     </body>
