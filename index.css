@@ -66,3 +66,16 @@ font-size:2.5ch;
 text-align:center;
 
 }
+
+.button {
+  background-color: rgb(255, 170, 0); 
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5%;
+  text-decoration:none;
+  border-color: black;
+}
+
+.button:hover {
+  background: rgb(193, 132, 10);
+}
